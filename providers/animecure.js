@@ -50,7 +50,9 @@ function getVideoSources(episodeUrl) {
   return Promise.resolve([{
     url: "https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
     quality: "720p",
-    type: "mp4",
-    headers: {}
+    label: "Anime Cure Test",
+    container: "mp4",
+    headers: {},
+    subtitles: []
   }]);
 }
