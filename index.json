@@ -1,0 +1,15 @@
+{
+  "name": "Anime Cure Arabic",
+  "description": "Arabic Anime Sources",
+  "sources": [
+    {
+      "id": "animecure",
+      "name": "Anime Cure",
+      "version": "1.0.0",
+      "type": "anime",
+      "lang": "ar",
+      "file": "providers/animecure.js",
+      "nsfw": false
+    }
+  ]
+}
