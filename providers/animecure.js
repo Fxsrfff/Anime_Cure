@@ -1,12 +1,12 @@
 var SOURCE_ID = "animecure";
-var VIDEO = "https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+var VIDEO = "https://www.w3schools.com/html/mov_bbb.mp4";
 
 function getInfo() {
   return {
     id: SOURCE_ID,
     name: "Anime Cure",
     lang: "ar",
-    baseUrl: "https://storage.googleapis.com",
+    baseUrl: "https://www.w3schools.com",
     type: "anime",
     version: "1.0.5"
   };
@@ -16,6 +16,7 @@ function search(query, page, opts) {
   return Promise.resolve([{
     id: "test",
     title: query,
+    englishTitle: query,
     url: VIDEO + "#" + encodeURIComponent(query),
     type: "anime",
     sourceId: SOURCE_ID
@@ -49,6 +50,7 @@ function getVideoSources(episodeUrl, opts) {
     url: VIDEO,
     quality: "720p",
     label: "Anime Cure Test",
+    container: "mp4",
     headers: {},
     subtitles: [],
     isM3U8: false
