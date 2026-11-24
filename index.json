@@ -8,7 +8,7 @@
       "version": "1.0.3",
       "type": "anime",
       "lang": "ar",
-      "file": "providers/animecure.js",
+      "file": "providers/animecure.js?v=103",
       "nsfw": false
     }
   ]
