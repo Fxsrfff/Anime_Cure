@@ -5,7 +5,7 @@
     {
       "id": "animecure",
       "name": "Anime Cure",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "type": "anime",
       "lang": "ar",
       "file": "providers/animecure.js",
