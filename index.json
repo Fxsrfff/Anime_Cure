@@ -5,10 +5,10 @@
     {
       "id": "animecure",
       "name": "Anime Cure",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "type": "anime",
       "lang": "ar",
-      "file": "providers/animecure.js?v=103",
+      "file": "providers/animecure.js",
       "nsfw": false
     }
   ]
